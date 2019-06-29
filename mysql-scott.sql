@@ -5,7 +5,12 @@ begin;
 
 set foreign_key_checks=0;
 
-CREATE DATABASE scott;
+DROP SCHEMA
+
+IF EXISTS scott;
+        CREATE SCHEMA hr COLLATE = utf8_general_ci;
+
+USE scott;
 
 create table dept (
   deptno integer,
