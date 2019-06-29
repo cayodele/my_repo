@@ -8,7 +8,7 @@ set foreign_key_checks=0;
 DROP SCHEMA
 
 IF EXISTS scott;
-        CREATE SCHEMA hr COLLATE = utf8_general_ci;
+        CREATE SCHEMA scott COLLATE = utf8_general_ci;
 
 USE scott;
 
